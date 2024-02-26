@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const DB = 'mongodb://localhost:27017';
+const DB = 'mongodb+srv://dbuser:dbuser@cluster0.ivebilz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 
 mongoose.connect(DB, {
